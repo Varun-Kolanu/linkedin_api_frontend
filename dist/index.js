@@ -1,8 +1,8 @@
-const backend_url = "http://localhost:5000"
+const backend_url = "https://linked-in-api-backend.onrender.com"
 
 const linkedin_url_auth = "https://www.linkedin.com/oauth/v2/authorization"
 const client_id = "77tifxcif4y42k"
-const redirect_uri = "http://127.0.0.1:5500/index.html"
+const redirect_uri = "https://linkedin-api-frontend.netlify.app/"
 
 
 const generateRandomString = (length) => {
