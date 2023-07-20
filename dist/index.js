@@ -20,7 +20,7 @@ const userAuthorization = async () => {
         if (!sessionStorage.getItem("state")) {
             const state = generateRandomString(16);
             sessionStorage.setItem('state', state);
-            const scope = "r_liteprofile r_emailaddress w_member_social"
+            const scope = "r_liteprofile r_emailaddress"
             const args = new URLSearchParams({
                 response_type: 'code',
                 client_id,
